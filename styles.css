@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(135, 73, 73);
@@ -8,9 +17,6 @@ body {
   flex-direction: column;
   margin: 0 auto;
   width: 80%;
-}
-
-body {
   animation: color-cycle 10s linear infinite;
 }
 
@@ -39,15 +45,6 @@ body {
   100% {
     background-color: red;
   }
-}
-
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 .container {
