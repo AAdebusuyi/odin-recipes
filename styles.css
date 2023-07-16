@@ -1,11 +1,4 @@
-.recipe-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.container {
+body {
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(135, 73, 73);
   animation: color-cycle 10s linear infinite;
@@ -17,7 +10,7 @@
   width: 80%;
 }
 
-.container {
+body {
   animation: color-cycle 10s linear infinite;
 }
 
@@ -46,6 +39,24 @@
   100% {
     background-color: red;
   }
+}
+
+.container {
+  background-color: honeydew;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.recipe-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .recipe-links a {
