@@ -79,6 +79,10 @@ body {
   border-radius: 5px;
 }
 
+.recipe-links a:hover {
+  background-color: #552f09;
+}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
