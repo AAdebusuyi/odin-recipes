@@ -80,7 +80,7 @@ body {
 }
 
 .recipe-links a:hover {
-  background-color: #552f09;
+  animation: color-cycle 10s linear infinite;
 }
 
 h1 {
