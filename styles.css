@@ -22,7 +22,7 @@ body {
 
 @keyframes color-cycle {
   0% {
-    background-color: rgb(135, 73, 73);
+    background-color: red;
   }
   14.29% {
     background-color: orange;
